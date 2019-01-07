@@ -1,6 +1,6 @@
 {
   "name": "ccl-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ccl-cli",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   "keywords": [
     "cli"
   ],
-  "bin":{
-    "ccl-cli":"./bin/ccl-cli.js"
+  "bin": {
+    "ccl-cli": "./bin/ccl-cli.js"
   },
   "author": "chenlian619@163.com",
   "license": "MIT",
