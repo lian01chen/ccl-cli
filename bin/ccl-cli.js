@@ -27,7 +27,7 @@ function loadTemplate(dir){
     abort('dir exist!') 
   }
   let spinner = ora('Loading rainbows ...').start()
-  download('lian01chen/my-react-demo', dir, function (err) {
+  download('lian01chen/ccl-base', dir, function (err) {
     spinner.stop()
     err ? message.error('fail') : message.success('success')
   })
